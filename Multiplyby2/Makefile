@@ -8,6 +8,7 @@ CXXFLAGS = -std=c++23 -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -O0 
 # Add -ggdb to the command line for debug builds and -O2 -DNDEBUG
 # -pedantic-errors disable compiler extensions 
 # -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion Extra warnings
+# -Werror Treat warnings as errors
 
 # Default target
 all: $(OUTDIR)/$(TARGET)
